@@ -134,3 +134,12 @@ h3{
     border-color: #fc0;
     color: #000;
 }
+.card.shadow-sm {
+    box-shadow: none !important;
+}
+.card {
+    border: none !important;
+}
+.bg-light {
+    background-color: transparent !important; /* O usa #ffffff para blanco */
+}
