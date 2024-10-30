@@ -128,3 +128,9 @@ h3{
     font-size: 24px;
     text-align: center;
 }
+.btn{
+
+    background-color: #fc0;
+    border-color: #fc0;
+    color: #000;
+}
