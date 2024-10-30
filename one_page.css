@@ -9,7 +9,23 @@ u{
     text-underline-offset: 5px; /* Ajusta la distancia del subrayado */
 }
 
+.card-text {
+    font-size: 16px;
+    text-align: center;
+}
 
+.text-muted{
+    font-size: 10px;
+    text-align: center;
+}
+
+h3{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.181;
+    margin: 0 0 5px;
+}
 
 
 #titulo_peces_intro{
