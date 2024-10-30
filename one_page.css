@@ -137,7 +137,6 @@ h3{
 
 /*esto es lo nuevo*/
 
-
 .form-container {
     display: flex;
     justify-content: center;
@@ -223,4 +222,14 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #000;
+}
+
+.card.shadow-sm {
+    box-shadow: none !important;
+}
+.card {
+    border: none !important;
+}
+.bg-light {
+    background-color: transparent !important; /* O usa #ffffff para blanco */
 }
