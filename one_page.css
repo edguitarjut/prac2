@@ -134,3 +134,93 @@ h3{
     border-color: #fc0;
     color: #000;
 }
+
+/*esto es lo nuevo*/
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color: #ffffff;
+    padding: 0 5px;
+    color: #4e57ff;
+    font-size: 10px;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #000; 
+    border-radius: 8px;
+    outline: none;
+    color: #333;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+    width: 100%;
+    padding: 14px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #333;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.button-container {
+    text-align: left;
+}
+
+button[type="submit"] {
+    width: 15%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #000;
+}

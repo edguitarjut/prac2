@@ -28,7 +28,7 @@
     <title>bootstrap_ejem</title>
 </head>
 
-<!-- esto lo puse yo-->
+<!-- header -->
 <body>
     <!-- anclaje -->
     <!-- header -->
@@ -131,6 +131,9 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+
+
   <!-- introduccion a la pagina -->
 
    <div style="display: flex; justify-content: center;">
@@ -338,6 +341,76 @@
     </div>
   </div>
   <!-- n //////////////////////////////////////////////////////////////////-->
+
+
+  <!--Formulario de contacto-->
+
+  <div class="form-container">
+    <form class="contact-form" action="/enviar" method="POST">
+
+        <div>
+          <h2>Contactanos</h2>
+        </div>
+
+        <div class="form-group">
+            <label for="motivo">Elige un motivo</label>
+            <select id="motivo" name="motivo" required>
+                <option value="">Elige un motivo</option>
+                <option value="consulta">Consulta</option>
+                <option value="reclamacion">Reclamación</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="otros">Otros</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="revista">Elige una revista</label>
+            <select id="revista" name="revista" required>
+                <option value="">Elige una revista</option>
+                <option value="revista1">Revista 1</option>
+                <option value="revista2">Revista 2</option>
+                <option value="revista3">Revista 3</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"  required>
+        </div>
+
+        <div class="form-group">
+             <label for="email">Correo electrónico</label>
+             <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Telefono"  required>
+        </div>
+
+        <div class="form-group">
+            <label for="pedido">Número de Pedido (opcional)</label>
+            <input type="text" id="pedido" name="pedido" placeholder="Número de pedido (opcional)">
+        </div>
+
+        <div class="form-group">
+            <label for="comentarios">Comentario</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="button-container">
+          <button type="submit">Enviar</button>
+      </div>
+    </form>
+</div>
+
+
+
   
    
   
