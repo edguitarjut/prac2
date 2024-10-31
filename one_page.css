@@ -128,6 +128,60 @@ h3{
     font-size: 24px;
     text-align: center;
 }
+#revistas_venta_tit{
+    text-align: center;
+    font-size: 48px;
+    font-weight: lighter;
+}
+#contenedor_revistas{
+    background-color: rgb(231, 231, 231) !important;
+}
+#contenedor_pie_pagina{
+    background-color: #000;
+    color: white;
+}
+.card-body_suscrip{
+    padding: 35px;
+    color: white;
+    background-color: #000;
+    border-bottom: 5px solid #fc0;; /* Línea amarilla en la parte inferior */
+    
+}
+
+.sombreado_card{
+    height: 100%;
+    /* Capa de sombreado con degradado */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+   
+    
+}
+.text-muted_suscrip{
+    color: white;
+    font-size: 11px;
+}
+.card-text_suscrip{
+    text-align: left;
+    
+}
+.titulo_art_suscrip{
+    font-family: "Oswald", serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: 40px;
+    text-indent: 1px;
+}
+.text_suscriptores_inf{
+    color: #fc0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.divisor{
+    width: 100%;        /* Toma el ancho completo del contenedor */
+    
+    background-color: #bbb7b7;  /* Color del divisor */
+    margin: 120px 0;     /* Espacio arriba y abajo del divisor */
+}
 .btn{
 
     background-color: #fc0;
