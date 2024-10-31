@@ -202,13 +202,25 @@ h3{
     height: 100vh;
     background-color: #f0f0f0;
 }
-
-.pie_pagina_card{
+.col-6.col-md-2.mb-3.pie_pagina_card{
     width: 300px;
-
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    
+    
 }
-
-
+.col-8.col-md-2.mb-3.pie_pagina_card{
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+.d-flex.flex-row.flex-wrap.gap-2{
+    justify-content: center;
+}
 .contact-form {
     background-color: #ffffff;
     padding: 20px;
