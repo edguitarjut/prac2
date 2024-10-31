@@ -106,7 +106,9 @@ h3{
     margin: 0 0 5px;
 }
 
-
+#revistas_venta_tit{
+    margin-bottom: 25px;
+}
 #titulo_peces_intro{
     margin-top: 10px;
     font-family: "Kanit", sans-serif;
@@ -119,7 +121,8 @@ h3{
     font-size: 24;
     margin-bottom: 25px;
 }
-#text_galeria_imagenes{
+
+.text_ceparador{
     margin-top: 25px;
     margin-bottom: 25px;
     font-family: "Kanit", sans-serif;
@@ -128,6 +131,7 @@ h3{
     font-size: 24px;
     text-align: center;
 }
+
 #revistas_venta_tit{
     text-align: center;
     font-size: 48px;
