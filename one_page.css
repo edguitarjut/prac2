@@ -93,6 +93,22 @@ u{
     text-align: center;
 }
 
+.text-contact {
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+#contac-nos{
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    font-size: 35px
+    
+}
+
 .text-muted{
     font-size: 10px;
     text-align: center;
@@ -137,28 +153,28 @@ h3{
 
 /*esto es lo nuevo*/
 
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+.map-container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
 }
-
 
 .contact-form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    margin: 0 auto;
+    
 }
-
 
 .form-group {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: left;
 }
 
